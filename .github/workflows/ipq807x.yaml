@@ -51,8 +51,8 @@ jobs:
 
             - name: Build target images
               run: |
-                make -j$(nproc) V=s || \
-                make V=s
+                PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j$(nproc) V=s || \
+                PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make V=s
 
             - name: Get the current date
               run: echo "NOW=$(date +%F-%H%M)" >> $GITHUB_ENV
