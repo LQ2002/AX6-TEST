@@ -51,7 +51,7 @@ CONFIG_TARGET_qualcommax=y
 # CONFIG_TARGET_x86 is not set
 CONFIG_TARGET_qualcommax_ipq807x=y
 # CONFIG_TARGET_qualcommax_ipq60xx is not set
-# CONFIG_TARGET_MULTI_PROFILE is not set
+CONFIG_TARGET_MULTI_PROFILE=y
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_arcadyan_aw1000 is not set
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_buffalo_wxr-5950ax12 is not set
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_cmcc_rm2-6 is not set
@@ -68,7 +68,7 @@ CONFIG_TARGET_qualcommax_ipq807x=y
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_netgear_wax630 is not set
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_prpl_haze is not set
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_qnap_301w is not set
-CONFIG_TARGET_qualcommax_ipq807x_DEVICE_redmi_ax6=y
+# CONFIG_TARGET_qualcommax_ipq807x_DEVICE_redmi_ax6 is not set
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_spectrum_sax1v1k is not set
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_xiaomi_ax3600 is not set
 # CONFIG_TARGET_qualcommax_ipq807x_DEVICE_xiaomi_ax9000 is not set
@@ -82,54 +82,43 @@ CONFIG_TARGET_qualcommax_ipq807x_DEVICE_redmi_ax6=y
 #
 # CONFIG_TARGET_ALL_PROFILES is not set
 CONFIG_TARGET_PER_DEVICE_ROOTFS=y
-# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_arcadyan_aw1000=y
-# CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_arcadyan_aw1000=""
-# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_buffalo_wxr-5950ax12=y
-# CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_buffalo_wxr-5950ax12=""
+# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_arcadyan_aw1000 is not set
+# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_buffalo_wxr-5950ax12 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_cmcc_rm2-6 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_compex_wpq873 is not set
-# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_dynalink_dl-wrx36=y
-# CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_dynalink_dl-wrx36=""
+# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_dynalink_dl-wrx36 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_edgecore_eap102 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_edimax_cax1800 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_linksys_mx4200v1 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_linksys_mx4200v2 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_linksys_mx5300 is not set
-# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_netgear_rax120v2=y
-# CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_netgear_rax120v2=""
+# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_netgear_rax120v2 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_netgear_wax218 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_netgear_wax620 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_netgear_wax630 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_prpl_haze is not set
-# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_qnap_301w=y
-# CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_qnap_301w=""
+# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_qnap_301w is not set
 CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_redmi_ax6=y
 CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_redmi_ax6=""
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_spectrum_sax1v1k is not set
-# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_xiaomi_ax3600=y
-# CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_xiaomi_ax3600=""
-# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_xiaomi_ax9000=y
-# CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_xiaomi_ax9000=""
+# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_xiaomi_ax3600 is not set
+# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_xiaomi_ax9000 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_yuncore_ax880 is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_zbtlink_zbt-z800ax is not set
 # CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_zte_mf269 is not set
-# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_zyxel_nbg7815=y
-# CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_zyxel_nbg7815=""
+# CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_zyxel_nbg7815 is not set
 # end of Target Devices
 
 CONFIG_HAS_SUBTARGETS=y
 CONFIG_HAS_DEVICES=y
 CONFIG_TARGET_BOARD="qualcommax"
 CONFIG_TARGET_SUBTARGET="ipq807x"
-CONFIG_TARGET_PROFILE="DEVICE_redmi_ax6"
 CONFIG_TARGET_ARCH_PACKAGES="aarch64_cortex-a53"
 CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Os -pipe -mcpu=cortex-a53"
 CONFIG_CPU_TYPE="cortex-a53"
 CONFIG_LINUX_6_6=y
-CONFIG_MODULE_DEFAULT_ath10k-firmware-qca9887=y
 CONFIG_DEFAULT_ath11k-firmware-ipq8074=y
 CONFIG_MODULE_DEFAULT_ath11k-firmware-ipq8074=y
-CONFIG_MODULE_DEFAULT_ath11k-firmware-qcn9074=y
 CONFIG_DEFAULT_base-files=y
 CONFIG_MODULE_DEFAULT_base-files=y
 CONFIG_DEFAULT_busybox=y
@@ -146,30 +135,15 @@ CONFIG_DEFAULT_firewall4=y
 CONFIG_MODULE_DEFAULT_firewall4=y
 CONFIG_DEFAULT_fstools=y
 CONFIG_MODULE_DEFAULT_fstools=y
-# CONFIG_MODULE_DEFAULT_ipq-wifi-arcadyan_aw1000=y
-# CONFIG_MODULE_DEFAULT_ipq-wifi-buffalo_wxr-5950ax12=y
-# CONFIG_MODULE_DEFAULT_ipq-wifi-dynalink_dl-wrx36=y
-# CONFIG_MODULE_DEFAULT_ipq-wifi-netgear_rax120v2=y
-# CONFIG_MODULE_DEFAULT_ipq-wifi-qnap_301w=y
 CONFIG_MODULE_DEFAULT_ipq-wifi-redmi_ax6=y
-# CONFIG_MODULE_DEFAULT_ipq-wifi-xiaomi_ax3600=y
-# CONFIG_MODULE_DEFAULT_ipq-wifi-xiaomi_ax9000=y
-# CONFIG_MODULE_DEFAULT_ipq-wifi-zyxel_nbg7815=y
 CONFIG_DEFAULT_iwinfo=y
 CONFIG_MODULE_DEFAULT_iwinfo=y
-CONFIG_MODULE_DEFAULT_kmod-ath10k=y
-CONFIG_MODULE_DEFAULT_kmod-ath10k-smallbuffers=y
 CONFIG_DEFAULT_kmod-ath11k-ahb=y
 CONFIG_MODULE_DEFAULT_kmod-ath11k-ahb=y
-CONFIG_MODULE_DEFAULT_kmod-ath11k-pci=y
-CONFIG_MODULE_DEFAULT_kmod-bluetooth=y
 CONFIG_DEFAULT_kmod-fs-ext4=y
 CONFIG_MODULE_DEFAULT_kmod-fs-ext4=y
 CONFIG_DEFAULT_kmod-gpio-button-hotplug=y
 CONFIG_MODULE_DEFAULT_kmod-gpio-button-hotplug=y
-CONFIG_MODULE_DEFAULT_kmod-gpio-nxp-74hc164=y
-CONFIG_MODULE_DEFAULT_kmod-hwmon-g761=y
-CONFIG_MODULE_DEFAULT_kmod-hwmon-tmp103=y
 CONFIG_DEFAULT_kmod-leds-gpio=y
 CONFIG_MODULE_DEFAULT_kmod-leds-gpio=y
 CONFIG_DEFAULT_kmod-nft-offload=y
@@ -178,13 +152,10 @@ CONFIG_DEFAULT_kmod-phy-aquantia=y
 CONFIG_MODULE_DEFAULT_kmod-phy-aquantia=y
 CONFIG_DEFAULT_kmod-qca-nss-dp=y
 CONFIG_MODULE_DEFAULT_kmod-qca-nss-dp=y
-CONFIG_MODULE_DEFAULT_kmod-spi-bitbang=y
-CONFIG_MODULE_DEFAULT_kmod-spi-gpio=y
 CONFIG_DEFAULT_kmod-usb-dwc3=y
 CONFIG_MODULE_DEFAULT_kmod-usb-dwc3=y
 CONFIG_DEFAULT_kmod-usb-dwc3-qcom=y
 CONFIG_MODULE_DEFAULT_kmod-usb-dwc3-qcom=y
-CONFIG_MODULE_DEFAULT_kmod-usb-serial-option=y
 CONFIG_DEFAULT_kmod-usb3=y
 CONFIG_MODULE_DEFAULT_kmod-usb3=y
 CONFIG_DEFAULT_libc=y
@@ -223,7 +194,6 @@ CONFIG_DEFAULT_uci=y
 CONFIG_MODULE_DEFAULT_uci=y
 CONFIG_DEFAULT_uclient-fetch=y
 CONFIG_MODULE_DEFAULT_uclient-fetch=y
-CONFIG_MODULE_DEFAULT_uqmi=y
 CONFIG_DEFAULT_urandom-seed=y
 CONFIG_MODULE_DEFAULT_urandom-seed=y
 CONFIG_DEFAULT_urngd=y
@@ -1911,28 +1881,28 @@ CONFIG_PACKAGE_libiwinfo-data=y
 # ath10k Board-Specific Overrides
 #
 # CONFIG_PACKAGE_ipq-wifi-8devices_mango is not set
-# CONFIG_PACKAGE_ipq-wifi-arcadyan_aw1000=m
-# CONFIG_PACKAGE_ipq-wifi-buffalo_wxr-5950ax12=m
+CONFIG_PACKAGE_ipq-wifi-arcadyan_aw1000=m
+CONFIG_PACKAGE_ipq-wifi-buffalo_wxr-5950ax12=m
 # CONFIG_PACKAGE_ipq-wifi-cmcc_rm2-6 is not set
 # CONFIG_PACKAGE_ipq-wifi-compex_wpq873 is not set
-# CONFIG_PACKAGE_ipq-wifi-dynalink_dl-wrx36=m
+CONFIG_PACKAGE_ipq-wifi-dynalink_dl-wrx36=m
 # CONFIG_PACKAGE_ipq-wifi-edgecore_eap102 is not set
 # CONFIG_PACKAGE_ipq-wifi-edimax_cax1800 is not set
 # CONFIG_PACKAGE_ipq-wifi-linksys_mx4200 is not set
 # CONFIG_PACKAGE_ipq-wifi-linksys_mx5300 is not set
 # CONFIG_PACKAGE_ipq-wifi-netgear_lbr20 is not set
-# CONFIG_PACKAGE_ipq-wifi-netgear_rax120v2=m
+CONFIG_PACKAGE_ipq-wifi-netgear_rax120v2=m
 # CONFIG_PACKAGE_ipq-wifi-netgear_wax214 is not set
 # CONFIG_PACKAGE_ipq-wifi-netgear_wax218 is not set
 # CONFIG_PACKAGE_ipq-wifi-netgear_wax620 is not set
 # CONFIG_PACKAGE_ipq-wifi-netgear_wax630 is not set
 # CONFIG_PACKAGE_ipq-wifi-prpl_haze is not set
-# CONFIG_PACKAGE_ipq-wifi-qnap_301w=m
+CONFIG_PACKAGE_ipq-wifi-qnap_301w=m
 CONFIG_PACKAGE_ipq-wifi-redmi_ax6=m
 # CONFIG_PACKAGE_ipq-wifi-spectrum_sax1v1k is not set
 # CONFIG_PACKAGE_ipq-wifi-wallys_dr40x9 is not set
-# CONFIG_PACKAGE_ipq-wifi-xiaomi_ax3600=m
-# CONFIG_PACKAGE_ipq-wifi-xiaomi_ax9000=m
+CONFIG_PACKAGE_ipq-wifi-xiaomi_ax3600=m
+CONFIG_PACKAGE_ipq-wifi-xiaomi_ax9000=m
 # CONFIG_PACKAGE_ipq-wifi-yuncore_ax880 is not set
 # CONFIG_PACKAGE_ipq-wifi-yuncore_fap650 is not set
 # CONFIG_PACKAGE_ipq-wifi-yyets_le1 is not set
@@ -1940,7 +1910,7 @@ CONFIG_PACKAGE_ipq-wifi-redmi_ax6=m
 # CONFIG_PACKAGE_ipq-wifi-zte_mf269 is not set
 # CONFIG_PACKAGE_ipq-wifi-zte_mf287 is not set
 # CONFIG_PACKAGE_ipq-wifi-zte_mf287plus is not set
-# CONFIG_PACKAGE_ipq-wifi-zyxel_nbg7815=m
+CONFIG_PACKAGE_ipq-wifi-zyxel_nbg7815=m
 # end of ath10k Board-Specific Overrides
 
 # CONFIG_PACKAGE_aircard-pcmcia-firmware is not set
@@ -4570,6 +4540,7 @@ CONFIG_PACKAGE_libext2fs=y
 # CONFIG_PACKAGE_libgpgmepp is not set
 # CONFIG_PACKAGE_libgphoto2 is not set
 # CONFIG_PACKAGE_libgpiod is not set
+# CONFIG_PACKAGE_libgpiodcxx is not set
 # CONFIG_PACKAGE_libgps is not set
 # CONFIG_PACKAGE_libhamlib is not set
 # CONFIG_PACKAGE_libhavege is not set
